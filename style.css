@@ -1,0 +1,46 @@
+*{
+    color: white;
+    font-size: larger;
+    background-color: black;
+}
+
+
+.calculator{
+    width: 400px;
+    height: 550px;
+    border: 2px yellow solid;
+    border-radius: 12px;
+    overflow: hidden; 
+}
+
+form input{
+    width: 95%;
+    height: 150px;
+    background-color: gray;
+    border: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: right;
+    pointer-events: none ;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+button{
+    flex: 0 0 22%;
+    margin: 5px;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    background-color: black;
+    font-weight: 600px;
+    border-radius: 5px;
+    border-color: yellow;
+    cursor: pointer;
+}
+
